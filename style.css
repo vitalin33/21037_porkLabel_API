@@ -1,0 +1,91 @@
+body{
+        margin: 0;
+        padding: 0;
+
+}
+
+.outSide{
+        margin: 0;
+        padding: 0;
+
+}
+
+.title{
+    text-align: center;
+    background:  rgba(1,84,44,1);
+    width: 100%;
+    height: 35vh;
+    color: white;
+
+}
+
+.title>h3{
+
+    font-size: 2.3rem;
+    margin: -10px;
+}
+
+.navWord{
+    background: rgba(78,164,19,1);
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+   
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+li{
+    width: 20%;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 0;
+    background: linear-gradient(90deg, rgba(78,164,19,1) 0%, rgba(1,84,44,1) 19%, rgba(4,84,44,1) 84%, rgba(78,164,19,1) 100%);
+}
+
+li:hover{
+    background: linear-gradient(79deg, rgba(64,159,113,1) 0%, rgba(6,126,66,1) 100%);
+    cursor: pointer;
+}
+
+.innerWord{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.upd{
+    width: 90%;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.formList{
+
+}
+
+table{
+    border: 1px solid black;
+    border-collapse:collapse;
+    margin: 20px auto;
+    width: 80%;
+}
+
+th{
+    background: rgb(51 213 49 / 60%);
+}
+
+th, tr,td{
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
